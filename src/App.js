@@ -8,8 +8,9 @@ function App() {
 
   return (
     <div>
-      <DisplayEntries parentEntries={ entries } />
+      <DisplayEntries parentEntries={entries} />
       <AddEntryForm />
+
     </div>
   );
 }
