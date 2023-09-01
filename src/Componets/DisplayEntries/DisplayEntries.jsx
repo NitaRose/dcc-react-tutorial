@@ -1,3 +1,5 @@
+
+
 const DisplayEntries = (props) => {
   return (
     <table>
