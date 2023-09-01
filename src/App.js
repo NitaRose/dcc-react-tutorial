@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import DisplayEntries from "./Componets/DisplayEntries/DisplayEntries";
 import AddEntryForm from "./Componets/AddEntry/AddEntryForm";
+import EntriesChartTracker from "./Componets/EntriesChartTracker/EntriesChartTracker";
 
 function App() {
   
@@ -16,7 +17,7 @@ function App() {
     <div>
       <DisplayEntries parentEntries={entries} />
       <AddEntryForm addNewEntryProperty={addNewEntry} />
-
+      <EntriesChartTracker parentEntries={entries} />
     </div>
   );
 }
