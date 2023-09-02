@@ -14,9 +14,17 @@ function App() {
     setEntries(tempEntries);
   }
   return (
-    <div>
-      <DisplayEntries parentEntries={entries} />
-      <AddEntryForm addNewEntryProperty={addNewEntry} />
+    <div className="Contanier-fluid">
+      <div className="row">
+        <div className="col-md-6">
+        <DisplayEntries parentEntries={entries} />
+        <AddEntryForm addNewEntryProperty={addNewEntry} />
+         </div>
+        <div className="col-md-6">
+
+        </div>
+        </div>  
+     
       <EntriesChartTracker parentEntries={entries} />
     </div>
   );
