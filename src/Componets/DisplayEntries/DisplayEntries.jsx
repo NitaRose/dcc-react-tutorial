@@ -4,8 +4,8 @@ const DisplayEntries = (props) => {
 
   return (
     
-    <table>
-      <thead>
+    <table className="table">
+      <thead className="thead-dark">
         <tr>
           <th>Entry Number</th>
           <th>Weight</th>
